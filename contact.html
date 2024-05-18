@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belle-Île-en-Mer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="header">
+        <div class="logo-container">
+            <img class="logo" src="https://woody.cloudly.space/app/themes/belle-ile/logo-color.png" />
+            <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="plan.html"><li>Plan</li></a>
+                <a href="balade.html"><li>Idée de balade</li></a>
+                <a href="horaires.html"><li>Marées</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+
+            </ul>
+        </div>
+    </nav>
+	<div class="deuxDiv">
+	<div class="entree">
+	<h1>Nous contacter</h1>
+	</div>
+	
+	<div class="contact">
+        <div class="text">
+        </div>
+        <form class="form" action="contact_submit" method="post">
+            <label for="lastName">Nom :</label>
+            <input type="text" id="lastName" name="lastName"><br>
+            
+            <label for="firstName">Prénom :</label>
+            <input type="text" id="firstName" name="firstName"><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"><br><hr>
+            
+            <label for="question">Votre question :</label><br>
+            <textarea id="question" name="question" rows="4" cols="30"></textarea><br>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    
+
+	
+	
+	
+
+	<footer class="footer">
+    	<ul>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            <li><a href="#">Plan du site</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
